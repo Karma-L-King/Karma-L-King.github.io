@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link href="css/homepage.css" rel="stylesheet">
+    <link href="css/stylemenu.css" rel="stylesheet">
+    <link href="script.js">
+    <title>home</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -13,8 +19,42 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="projecten.html">Projecten</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                <li><a href="vaardigheden.html">vaardigheden</a></li>
+                <li><a href="nieuws.html">nieuws</a></li>
+                <li><a href="over-mij.html">over-mij</a></li>
             </ul>
         </nav>
+
+
     </header>
+    <div id="gallery">
+        <img src="images/fayza.jpg" height="200px" width="200px">
+        <img src="images/logo.png" height="200px" width="200px">
+        <img src="images/Hueyfreeman-jpg.png" height="200px" width="200px">
+    </div>
+    <h1 class="test">wie ben ik?</h1>
+    <p id="tekst"><b>Hey ik ben Karma King, 
+        Ik ben 16 jaar en ik zit op het MBO Amstelland College.
+        Ik hou van gamen, anime en koken. ik woon in Zaandam samen met mijn ouders
+        en broer, ik werk nu in een zorgbedrijf en doe daar adminastratief werk.
+        </b></p>
+
+    <footer id="footer">
+        <nav>
+            <ul>
+                <li><a href="https://github.com/Karma-L-King/karma.git">github</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div id="date">
+            <p>Date/Time: <span id="datetime"></span> </p>
+        </div>
+        <p><button id="Button1" onclick="clickCounter()" type="button">Like</button></p>
+        <div id="result"></div>
+
+        <script src="js/script.js"></script>
+    </footer>
 </body>
+
 </html>
